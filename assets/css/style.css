@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    background-color: #bebebef5;
+}
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+.content-center{
+    margin-top: 9em;
+    
+}
+.content-center{
+    background-color: #fffafad0;
+    border-radius: 20px;
+}
+.content-center .text-center {
+    text-align: center;
+}
+.content-center a{
+    font-weight: lighter;
+    display: block;
+    margin: 15px 0px;
+}
+.content-center a{
+    text-decoration: none;
+    color: #0051ff;
+    font-size: 15px;
+}
+.content-center a:visited{
+    color: #0051ff;
+}
+.content-center img {
+    max-width: 50%;
+    animation: zoom  ease-in 1s;
+}
+.content-center form{
+
+    padding: 20px;
+}
+.content-center input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid #ccc;
+   
+}
+.content-center input:focus{
+    outline: none;
+    border-bottom: 2px solid ;
+    animation: bottom alternate infinite 3s;
+} 
+
+   
+.content-center .passw{
+    margin-top: 10px;
+}
+.content-center button{
+    width: 70%;
+    padding: 10px;
+    background-color: #6acf0ac2;
+    border-radius: 10px;
+    border: none;
+}
+.content-center button:hover{
+    cursor: pointer;
+    background-color: #488f06c2;
+}
+.content-center button:active{
+    cursor: pointer;
+    background-color: #03aa0bc2;
+}
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: #0051ff;
+}
+  
+
+@keyframes bottom {
+    from{
+        color: #6acf0ac2;
+    }
+    to{
+        color: #0051ff;
+    }
+}
+@keyframes zoom {
+    from{
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
