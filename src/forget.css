@@ -220,7 +220,7 @@ body.active{
 .iori{
     width: 150px;
     height: 100px;
-    background-image: url(/src/io-max.webp);
+    background-image: url(io-max.webp);
     background-position: 0%;
     background-size: cover;
 }
