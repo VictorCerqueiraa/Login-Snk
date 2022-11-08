@@ -24,10 +24,10 @@
         <form id="form-login" action="/Login" method="post">
             <div>
                 
-                <input id= "email" name = "email" type="email" placeholder="Digite seu Email..."  onchange="confirmaEmail()" required>
+                <input id= "email" name =  autocomplete="off" "email" type="email" placeholder="Digite seu Email..."  onchange="confirmaEmail()" required>
             </div>
             <div>
-                <input id= "conf-email" name="conf-email" type="email" onchange="confirmaEmail()" placeholder="Confirme seu Email..." required>
+                <input id= "conf-email" autocomplete="off" name="conf-email" type="email" onchange="confirmaEmail()" placeholder="Confirme seu Email..." required>
             </div>
             <div class="passw">
                 <input id = "password" name="pass" type="password" onchange="confirmaSenha()" placeholder="Digite sua Senha..." required>

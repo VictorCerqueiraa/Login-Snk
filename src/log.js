@@ -28,4 +28,4 @@ inpPas.addEventListener('click', () => {
   slug.classList.toggle('selected')
  })
 
-
+window.alert('atenção não se trata de um projeto profissional, e sim iniciante em vista disso o botão "cadastrar" nao cadastra, e o "entrar" tambem nao leva a lugar algum, por isso teste, relembre a infancia e me de um feedback obrigado! ^o^ ')
